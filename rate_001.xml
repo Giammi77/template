@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GenRoBag><_ins_ts _tag="__ins_ts" _T="DH" dtype="DH" name_long="!![en]Insert date" indexed="True::B" group="zzz" onInserting="setTSNow" _sysfield="True::B" _owner_package="rcweb" as="t0___ins_ts">2021-11-10T10:51:38.944937+01:00</_ins_ts>
+<_del_ts _tag="__del_ts" _T="NN" dtype="DH" name_long="!![en]Logical delete date" indexed="True::B" group="zzz" _sysfield="True::B" _owner_package="rcweb" as="t0___del_ts"></_del_ts>
+<_mod_ts _tag="__mod_ts" _T="DH" dtype="DH" name_long="!![en]Update date" indexed="True::B" group="zzz" onInserting="setTSNow" onUpdating="setTSNow" _sysfield="True::B" _owner_package="rcweb" print_width="26::L" as="t0___mod_ts">2021-11-10T11:10:04.807799+01:00</_mod_ts>
+<_ins_user _tag="__ins_user" _T="NN" name_long="!![en]User Insert" group="zzz" onInserting="setCurrentUser" _sysfield="True::B" _owner_package="rcweb" dtype="T" as="t0___ins_user"></_ins_user>
+<identifier size=":120" unique="True::B" indexed="True::B" sql_value="COALESCE(:tbl,:pkg,'')||:objtype||:code|| CASE WHEN :private THEN :userid ELSE '' END" _owner_package="rcweb" dtype="A" as="t0_identifier">rcweb.inviotemplateRATE_001</identifier>
+<code size=":40" name_long="!![en]Code" indexed="y" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_code">RATE_001</code>
+<objtype size=":20" name_long="!![en]Object Type" indexed="y" _owner_package="rcweb" dtype="A" print_width="15::L" as="t0_objtype">template</objtype>
+<pkg size=":50" name_long="!![en]Package" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_pkg">rcweb</pkg>
+<tbl size=":50" name_long="!![en]Table" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_tbl">rcweb.invio</tbl>
+<userid size=":50" name_long="!![en]User ID" indexed="y" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_userid">admin</userid>
+<description size=":50" name_long="!![en]Description" indexed="y" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_description">Rateazione</description>
+<notes _T="NN" dtype="T" name_long="!![en]Notes" _owner_package="rcweb" as="t0_notes"></notes>
+<data dtype="X" name_long="!![en]Data" _owner_package="rcweb" print_width="12::L" as="t0_data"><content>&lt;style type="text/css"&gt;
+p.destinatario {
+  margin-left: 60%; font face="arial, helvetica, sans-serif"; font-size: 11px;
+}&lt;/style&gt;
+&lt;div&gt;
+	&lt;table border="1" cellpadding="1" cellspacing="1" style="font-size: 12px; border-collapse: collapse; width: 100%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;
+					&lt;div&gt;
+						&lt;img alt="" src="http://localhost:8080/site:loghi/risco.png" style="width: 200px; height: 48px;" /&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Societ&amp;agrave; Unipersonale del Comune di Francavilla al Mare &amp;ndash; Gestione e Riscossione Tributi&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Direzione e Coordinamento Comune di Francavilla al Mare&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:8px;"&gt;Via Spaccapietra n. 8-10 - 66023 - Francavilla al Mare (Ch) - 085/815164 fax 085/7993123 - email info.tributi@riscosrl.it - posta elettronica certificata risco@pec.riscosrl.it P.I. e C.F. 02174950697&lt;/span&gt;&lt;/div&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:16px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;COMUNICAZIONE DI RATEIZZAZIONE&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;em style="font-family: arial, helvetica, sans-serif; font-size: 11px; text-align: center;"&gt;n.&lt;/em&gt;&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;&amp;nbsp;&lt;strong&gt;$nprat&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;prot. n.&amp;nbsp;&lt;strong&gt;$num__prot&lt;/strong&gt; del&amp;nbsp;&lt;strong&gt;$data_prot&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;CF:&amp;nbsp;$CF&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;Ente Creditore: &lt;strong&gt;Comune di Francavilla al Mare&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;p class="destinatario"&gt;
+	&lt;strong&gt;$contribuente $attributo $debitore_originario&lt;/strong&gt;&lt;br /&gt;
+	$indirizzo&lt;br /&gt;
+	$cap $comune ($pr)&lt;/p&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:11px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;La Responsabile del Tributo, Dr.ssa Lucia BIUSO:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	- PREMESSO che la Societ&amp;agrave; RISCO Srl ha emesso &lt;span style="background-color:#ffd700;"&gt;Sollecito di Pagamento - prot. n.960 del 21/04/2021 , notificata il 15/07/2021&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	- TENUTO CONTO dell&amp;#39;art.24 comma 2 del Regolamento Generale delle Entrate del Comune di Francavilla al Mare approvato con delibera di C.C. n. 67 del 28/11/2008 e successiva integrazione giusta delibera di C.C. n.20 del 27/08/2011;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:8px;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&lt;strong&gt;COMUNICA&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;
+	che, su rischiesta avanza dal contribuente, &amp;egrave; stata concessa la dilazione di pagamento della somma dovuta di &lt;span style="background-color:#ffd700;"&gt;&amp;euro; 498,50&lt;/span&gt;, di cui &amp;egrave; stata gi&amp;agrave; pagata la somma di &lt;span style="background-color:#ffd700;"&gt;&amp;euro; 0,00&lt;/span&gt;, &amp;nbsp;per un importo residuo di &lt;span style="background-color:#ffd700;"&gt;&amp;euro; 498,50&lt;/span&gt; in &lt;span style="background-color:#ffd700;"&gt;n.4 &lt;/span&gt;rate secondo le scadenze indicate nel prospetto riepilogativo di seguito riportato:&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	Verificato il mancato pagamento della TARI come di seguito specificato:&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&lt;table border="1" cellpadding="1" cellspacing="1" row_datasource="@pratica_anag_id.@rateazione" style="border-collapse:collapse;height:10px;width:60%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;th style="text-align: center; background-color: rgb(204, 204, 204); width: 12%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 10px;"&gt;N.&lt;/span&gt;&lt;/font&gt;Rata&lt;/th&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 5%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Importo Rata&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 8%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Scadenza&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 10%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Quota Capitale&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 10%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Quota Interessi&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td style="text-align: center; width: 12%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					$rata&lt;/td&gt;
+				&lt;td style="text-align: center; width: 5%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					$imp&lt;/td&gt;
+				&lt;td style="text-align: center; width: 8%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					$scad&lt;/td&gt;
+				&lt;td style="width: 10%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&amp;nbsp;&lt;/td&gt;
+				&lt;td style="width: 10%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					0&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+	&lt;div style="text-align: right;"&gt;
+		&amp;nbsp;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div style="text-align: justify;"&gt;
+	Con l&amp;#39;avvertenza che il mancato pagamento anche di una sola rata costituisce decadenza del beneficio concesso, giusta Determina Dirigenziale n.807 del 6/7/2012)&lt;/div&gt;
+&lt;div style="text-align: justify;"&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div style="text-align: justify;"&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div style="text-align: right;"&gt;
+	&lt;span style="font-size:11px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;La Responsabile del Tributo&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: right;"&gt;
+	&lt;span style="font-size:11px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;( Dr.ssa Lucia Biuso)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;</content>
+<metadata><author>abarbone</author>
+<version _T="NN"></version>
+<date _T="NN"></date>
+<is_print _T="B" _valuelabel="">True</is_print>
+<is_mail _T="NN"></is_mail>
+<is_row _T="NN"></is_row>
+<row_height _T="NN"></row_height>
+<default_letterhead _T="NN"></default_letterhead>
+<summary _T="NN"></summary>
+<email><subject _T="NN"></subject>
+<to_address _T="NN"></to_address>
+<from_address _T="NN"></from_address>
+<cc_address _T="NN"></cc_address>
+<bcc_address _T="NN"></bcc_address>
+<attachments _T="NN"></attachments></email>
+<email_compiled _T="BAG"></email_compiled></metadata>
+<varsbag><fyov0npbjt _pkey="fyov0npbjt"><fieldpath>num_protocollo</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">Num. prot</fieldname>
+<varname dtype="::NN">num__prot</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyov0npbjt>
+<fyov0pd53l _pkey="fyov0pd53l"><fieldpath>data_protocollo</fieldpath>
+<dtype dtype="::NN">D</dtype>
+<fieldname dtype="::NN">Data prot</fieldname>
+<varname dtype="::NN">data_prot</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyov0pd53l>
+<fyzpklg5tl _pkey="fyzpklg5tl"><fieldpath>@pratica_anag_id.debitore_originario</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">id prat ana/debitore originario</fieldname>
+<varname dtype="::NN">debitore_originario</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzpklg5tl>
+<fypr18jry1 _pkey="fypr18jry1"><fieldpath>pratica_num</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">N. Prat.</fieldname>
+<varname dtype="::NN">nprat</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fypr18jry1>
+<fyyr4ggym9 _pkey="fyyr4ggym9"><fieldpath>@pratica_anag_id.@anagrafica_id.codicefiscale</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/codicefiscale</fieldname>
+<varname dtype="::NN">CF</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr4ggym9>
+<fyyrj11vvd _pkey="fyyrj11vvd"><fieldpath>@pratica_anag_id.contribuente</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Contribuente</fieldname>
+<varname dtype="::NN">contribuente</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyrj11vvd>
+<fyyr8cb6vd _pkey="fyyr8cb6vd"><fieldpath>@pratica_anag_id.@anagrafica_id.indirizzo</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/indirizzo</fieldname>
+<varname dtype="::NN">indirizzo</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr8cb6vd>
+<fyyr8f3zq9 _pkey="fyyr8f3zq9"><fieldpath>@pratica_anag_id.@anagrafica_id.cap</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/cap</fieldname>
+<varname dtype="::NN">cap</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr8f3zq9>
+<fyyr8hl429 _pkey="fyyr8hl429"><fieldpath>@pratica_anag_id.@anagrafica_id.comune</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/comune</fieldname>
+<varname dtype="::NN">comune</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr8hl429>
+<fyyrqfpf7d _pkey="fyyrqfpf7d"><fieldpath>@pratica_anag_id.@invio.num_raccomandata</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">id prat ana/Invii/Num. racc</fieldname>
+<varname dtype="::NN">num</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyrqfpf7d>
+<fyyr8nrcu1 _pkey="fyyr8nrcu1"><fieldpath>@pratica_anag_id.@anagrafica_id.pr</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/pr</fieldname>
+<varname dtype="::NN">pr</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr8nrcu1>
+<fyzozmr6hl _pkey="fyzozmr6hl"><fieldpath>@pratica_anag_id.debito_totale</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Debito Totale</fieldname>
+<varname dtype="::NN">debito_totale</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN" _loadedValue="â‚¬ #,##0.00">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzozmr6hl>
+<g1yrqga2qx _pkey="g1yrqga2qx"><fieldpath>@pratica_anag_id.@pratica_id.old_id_prat</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/N.Prat.</fieldname>
+<varname dtype="::NN">id_prat_ana_pratica_id_n_prat_</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g1yrqga2qx>
+<g1yrtpos0h _pkey="g1yrtpos0h"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.tributo_id</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Tributo</fieldname>
+<varname dtype="::NN">id_prat_ana_pratica_id_dettagli_pratica_tributo</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g1yrtpos0h>
+<g1yrs4x7c9 _pkey="g1yrs4x7c9"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.data_notifica</fieldpath>
+<dtype dtype="::NN">D</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Data Not</fieldname>
+<varname dtype="::NN">a2</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g1yrs4x7c9>
+<fyzw09dslt _pkey="fyzw09dslt"><fieldpath>num_raccomandata</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">Num. racc</fieldname>
+<varname dtype="::NN">num_racc</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzw09dslt>
+<fyzw07dtk1 _pkey="fyzw07dtk1"><fieldpath>num_cronologico</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">Num. cron</fieldname>
+<varname dtype="::NN">num_cron</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzw07dtk1>
+<fyzw1gcqf5 _pkey="fyzw1gcqf5"><fieldpath>data_invio</fieldpath>
+<dtype dtype="::NN">D</dtype>
+<fieldname dtype="::NN">Data invio</fieldname>
+<varname dtype="::NN">data_invio</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzw1gcqf5>
+<fyzwn8lng9 _pkey="fyzwn8lng9"><fieldpath>interessi_ulteriori</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">Interessi Ulteriori</fieldname>
+<varname dtype="::NN">interessi_ulteriori</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">â‚¬ #,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzwn8lng9>
+<fyzwn77jft _pkey="fyzwn77jft"><fieldpath>oneri_riscossione</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">Oneri Riscossione</fieldname>
+<varname dtype="::NN">oneri_riscossione</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">â‚¬ #,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzwn77jft>
+<fyzwoiiyqp _pkey="fyzwoiiyqp"><fieldpath>spese_notifica</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">Spese di Notifica</fieldname>
+<varname dtype="::NN">spese_di_notifica</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">â‚¬ #,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzwoiiyqp>
+<fyzxlm3f49 _pkey="fyzxlm3f49"><fieldpath>sede_dinamica</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">sede_dinamica</fieldname>
+<varname dtype="::NN">sede_dinamica</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzxlm3f49>
+<g06vqhn40x _pkey="g06vqhn40x"><fieldpath>associato</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">associato</fieldname>
+<varname dtype="::NN">associato</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g06vqhn40x>
+<g06vtsb7jt _pkey="g06vtsb7jt"><fieldpath>attributo</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">attributo</fieldname>
+<varname dtype="::NN">attributo</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g06vtsb7jt>
+<g06vtuik15 _pkey="g06vtuik15"><fieldpath>deb_orig</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">debitore originario</fieldname>
+<varname dtype="::NN">debitore_originario</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g06vtuik15>
+<g1ytf685mp _pkey="g1ytf685mp"><fieldpath>@pratica_anag_id.@rateazione.num_rata</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">id prat ana/Rateazioni/Rata .</fieldname>
+<varname dtype="::NN">rata</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g1ytf685mp>
+<g1ytf7e9u1 _pkey="g1ytf7e9u1"><fieldpath>@pratica_anag_id.@rateazione.data_scadenza</fieldpath>
+<dtype dtype="::NN">D</dtype>
+<fieldname dtype="::NN">id prat ana/Rateazioni/Scadenza</fieldname>
+<varname dtype="::NN">scad</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g1ytf7e9u1>
+<g1ytf8gty9 _pkey="g1ytf8gty9"><fieldpath>@pratica_anag_id.@rateazione.importo</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Rateazioni/Importo</fieldname>
+<varname dtype="::NN">imp</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g1ytf8gty9></varsbag>
+<parameters _T="BAG"></parameters>
+<email><attached_reports _T="BAG"></attached_reports></email>
+<compiled><_pratica_anag_id_rateazione _tag="@pratica_anag_id_@rateazione">&lt;tr&gt;
+				&lt;td style="text-align: center; width: 12%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					$num_rata&lt;/td&gt;
+				&lt;td style="text-align: center; width: 5%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					$importo&lt;/td&gt;
+				&lt;td style="text-align: center; width: 8%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					$data_scadenza&lt;/td&gt;
+				&lt;td style="width: 10%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&amp;#160;&lt;/td&gt;
+				&lt;td style="width: 10%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					0&lt;/td&gt;
+			&lt;/tr&gt;
+		</_pratica_anag_id_rateazione>
+<main maintable="rcweb.invio" locale="it-IT" virtual_columns="@pratica_anag_id.debitore_originario,pratica_num,@pratica_anag_id.contribuente,@pratica_anag_id.debito_totale,interessi_ulteriori,oneri_riscossione,spese_notifica,sede_dinamica,associato,attributo,deb_orig" columns="$num_protocollo,$data_protocollo,@pratica_anag_id.debitore_originario,$pratica_num,@pratica_anag_id.@anagrafica_id.codicefiscale,@pratica_anag_id.contribuente,@pratica_anag_id.@anagrafica_id.indirizzo,@pratica_anag_id.@anagrafica_id.cap^cap,@pratica_anag_id.@anagrafica_id.comune,@pratica_anag_id.@invio.num_raccomandata,@pratica_anag_id.@anagrafica_id.pr,@pratica_anag_id.debito_totale^debito_totale,@pratica_anag_id.@pratica_id.old_id_prat,@pratica_anag_id.@pratica_id.@pratica_riga.tributo_id,@pratica_anag_id.@pratica_id.@pratica_riga.data_notifica,$num_raccomandata,$num_cronologico,$data_invio,$interessi_ulteriori^interessi_ulteriori,$oneri_riscossione^oneri_riscossione,$spese_notifica^spese_di_notifica,$sede_dinamica,$associato,$attributo,$deb_orig,@pratica_anag_id.@rateazione.num_rata,@pratica_anag_id.@rateazione.data_scadenza,@pratica_anag_id.@rateazione.importo" formats='{"cap": "#", "debito_totale": "#,##0.00", "interessi_ulteriori": "\u00e2\u201a\u00ac #,##0.00", "oneri_riscossione": "\u00e2\u201a\u00ac #,##0.00", "spese_di_notifica": "\u00e2\u201a\u00ac #,##0.00"}::JS' masks="{}::JS" editcols="{}::JS" df_templates="{}::JS" dtypes='{"num__prot": "A", "data_prot": "D", "debitore_originario": "A", "nprat": "I", "CF": "T", "contribuente": "T", "indirizzo": "T", "cap": "I", "comune": "T", "num": "A", "pr": "T", "debito_totale": "R", "id_prat_ana_pratica_id_n_prat_": "I", "id_prat_ana_pratica_id_dettagli_pratica_tributo": "I", "a2": "D", "num_racc": "A", "num_cron": "I", "data_invio": "D", "interessi_ulteriori": "R", "oneri_riscossione": "R", "spese_di_notifica": "R", "sede_dinamica": "A", "associato": "A", "attributo": "A", "rata": "I", "scad": "D", "imp": "R"}::JS'>&lt;html&gt;&lt;head&gt;&lt;style type="text/css"&gt;
+p.destinatario {
+  margin-left: 60%; font face="arial, helvetica, sans-serif"; font-size: 11px;
+}&lt;/style&gt;
+&lt;/head&gt;&lt;body&gt;&lt;div&gt;
+	&lt;table border="1" cellpadding="1" cellspacing="1" style="font-size: 12px; border-collapse: collapse; width: 100%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;
+					&lt;div&gt;
+						&lt;img alt="" src="http://localhost:8080/site:loghi/risco.png" style="width: 200px; height: 48px;"&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Societ&amp;#224; Unipersonale del Comune di Francavilla al Mare &amp;#8211; Gestione e Riscossione Tributi&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Direzione e Coordinamento Comune di Francavilla al Mare&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:8px;"&gt;Via Spaccapietra n. 8-10 - 66023 - Francavilla al Mare (Ch) - 085/815164 fax 085/7993123 - email info.tributi@riscosrl.it - posta elettronica certificata risco@pec.riscosrl.it P.I. e C.F. 02174950697&lt;/span&gt;&lt;/div&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:16px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;COMUNICAZIONE DI RATEIZZAZIONE&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;em style="font-family: arial, helvetica, sans-serif; font-size: 11px; text-align: center;"&gt;n.&lt;/em&gt;&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;&amp;#160;&lt;strong&gt;$pratica_num&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;prot. n.&amp;#160;&lt;strong&gt;$num_protocollo&lt;/strong&gt; del&amp;#160;&lt;strong&gt;$data_protocollo&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;CF:&amp;#160;$@pratica_anag_id.@anagrafica_id.codicefiscale&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;Ente Creditore: &lt;strong&gt;Comune di Francavilla al Mare&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;p class="destinatario"&gt;
+	&lt;strong&gt;$@pratica_anag_id.contribuente $attributo $deb_orig&lt;/strong&gt;&lt;br&gt;
+	$@pratica_anag_id.@anagrafica_id.indirizzo&lt;br&gt;
+	$@pratica_anag_id.@anagrafica_id.cap^cap $@pratica_anag_id.@anagrafica_id.comune ($@pratica_anag_id.@anagrafica_id.pr)&lt;/p&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:11px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;La Responsabile del Tributo, Dr.ssa Lucia BIUSO:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	- PREMESSO che la Societ&amp;#224; RISCO Srl ha emesso &lt;span style="background-color:#ffd700;"&gt;Sollecito di Pagamento - prot. n.960 del 21/04/2021 , notificata il 15/07/2021&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	- TENUTO CONTO dell'art.24 comma 2 del Regolamento Generale delle Entrate del Comune di Francavilla al Mare approvato con delibera di C.C. n. 67 del 28/11/2008 e successiva integrazione giusta delibera di C.C. n.20 del 27/08/2011;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:8px;"&gt;&amp;#160;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&lt;strong&gt;COMUNICA&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;
+	che, su rischiesta avanza dal contribuente, &amp;#232; stata concessa la dilazione di pagamento della somma dovuta di &lt;span style="background-color:#ffd700;"&gt;&amp;#8364; 498,50&lt;/span&gt;, di cui &amp;#232; stata gi&amp;#224; pagata la somma di &lt;span style="background-color:#ffd700;"&gt;&amp;#8364; 0,00&lt;/span&gt;, &amp;#160;per un importo residuo di &lt;span style="background-color:#ffd700;"&gt;&amp;#8364; 498,50&lt;/span&gt; in &lt;span style="background-color:#ffd700;"&gt;n.4 &lt;/span&gt;rate secondo le scadenze indicate nel prospetto riepilogativo di seguito riportato:&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div&gt;
+	Verificato il mancato pagamento della TARI come di seguito specificato:&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div&gt;
+	&lt;table border="1" cellpadding="1" cellspacing="1" row_datasource="@pratica_anag_id.@rateazione" style="border-collapse:collapse;height:10px;width:60%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;th style="text-align: center; background-color: rgb(204, 204, 204); width: 12%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 10px;"&gt;N.&lt;/span&gt;&lt;/font&gt;Rata&lt;/th&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 5%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Importo Rata&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 8%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Scadenza&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 10%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Quota Capitale&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 10%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Quota Interessi&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			
+$@pratica_anag_id.@rateazione
+&lt;/tbody&gt;
+	&lt;/table&gt;
+	&lt;div style="text-align: right;"&gt;
+		&amp;#160;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div style="text-align: justify;"&gt;
+	Con l'avvertenza che il mancato pagamento anche di una sola rata costituisce decadenza del beneficio concesso, giusta Determina Dirigenziale n.807 del 6/7/2012)&lt;/div&gt;
+&lt;div style="text-align: justify;"&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div style="text-align: justify;"&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div style="text-align: right;"&gt;
+	&lt;span style="font-size:11px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;La Responsabile del Tributo&amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160;&amp;#160;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: right;"&gt;
+	&lt;span style="font-size:11px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;( Dr.ssa Lucia Biuso)&amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</main></compiled></data>
+<authtags _T="NN" dtype="T" name_long="!![en]Auth tags" _owner_package="rcweb" print_width="20::L" as="t0_authtags"></authtags>
+<private _T="B" dtype="B" name_long="!![en]Private" _owner_package="rcweb" print_width="11::L" as="t0_private">False</private>
+<quicklist _T="NN" dtype="B" name_long="!![en]Quicklist" _owner_package="rcweb" print_width="13::L" as="t0_quicklist"></quicklist>
+<flags dtype="T" name_long="!![en]Flags" _owner_package="rcweb" print_width="20::L" as="t0_flags">is_print</flags>
+<required_pkg _T="NN" name_long="!![en]Required pkg" _owner_package="rcweb" dtype="T" print_width="20::L" as="t0_required_pkg"></required_pkg>
+<preview _T="NN" name_long="!![en][it]Preview" _owner_package="rcweb" dtype="T" as="t0_preview"></preview></GenRoBag>

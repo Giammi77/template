@@ -1,0 +1,979 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GenRoBag><_ins_ts _tag="__ins_ts" _T="DH" dtype="DH" name_long="!![en]Insert date" indexed="True::B" group="zzz" onInserting="setTSNow" _sysfield="True::B" _owner_package="rcweb" as="t0___ins_ts">2021-11-17T10:58:30.705407+01:00</_ins_ts>
+<_del_ts _tag="__del_ts" _T="NN" dtype="DH" name_long="!![en]Logical delete date" indexed="True::B" group="zzz" _sysfield="True::B" _owner_package="rcweb" as="t0___del_ts"></_del_ts>
+<_mod_ts _tag="__mod_ts" _T="DH" dtype="DH" name_long="!![en]Update date" indexed="True::B" group="zzz" onInserting="setTSNow" onUpdating="setTSNow" _sysfield="True::B" _owner_package="rcweb" print_width="26::L" as="t0___mod_ts">2021-11-18T16:31:02.865516+01:00</_mod_ts>
+<_ins_user _tag="__ins_user" name_long="!![en]User Insert" group="zzz" onInserting="setCurrentUser" _sysfield="True::B" _owner_package="rcweb" dtype="T" as="t0___ins_user">admin</_ins_user>
+<identifier size=":120" unique="True::B" indexed="True::B" sql_value="COALESCE(:tbl,:pkg,'')||:objtype||:code|| CASE WHEN :private THEN :userid ELSE '' END" _owner_package="rcweb" dtype="A" as="t0_identifier">rcweb.inviotemplateING_TRIB_002</identifier>
+<code size=":40" name_long="!![en]Code" indexed="y" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_code">ING_TRIB_002</code>
+<objtype size=":20" name_long="!![en]Object Type" indexed="y" _owner_package="rcweb" dtype="A" print_width="15::L" as="t0_objtype">template</objtype>
+<pkg size=":50" name_long="!![en]Package" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_pkg">rcweb</pkg>
+<tbl size=":50" name_long="!![en]Table" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_tbl">rcweb.invio</tbl>
+<userid size=":50" name_long="!![en]User ID" indexed="y" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_userid">admin</userid>
+<description size=":50" name_long="!![en]Description" indexed="y" _owner_package="rcweb" dtype="A" print_width="30::L" as="t0_description">Ing.Trib.Pineto</description>
+<notes dtype="T" name_long="!![en]Notes" _owner_package="rcweb" as="t0_notes">Comune di Pineto</notes>
+<data dtype="X" name_long="!![en]Data" _owner_package="rcweb" print_width="12::L" as="t0_data"><content>&lt;div&gt;
+	&lt;style type="text/css"&gt;
+p.destinatario {
+  margin-left: 60%; font face="arial, helvetica, sans-serif"; font-size: 11px;
+}	&lt;/style&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;table border="1" cellpadding="1" cellspacing="1" style="font-size: 12px; border-collapse: collapse; width: 100%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;
+					&lt;div&gt;
+						&lt;img alt="" src="http://localhost:8080/site:loghi/risco.png" style="width: 200px; height: 48px;" /&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Societ&amp;agrave; Unipersonale del Comune di Francavilla al Mare &amp;ndash; Gestione e Riscossione Tributi&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Direzione e Coordinamento Comune di Francavilla al Mare&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:8px;"&gt;Via Spaccapietra n. 8-10 - 66023 - Francavilla al Mare (Ch) - 085/815164 fax 085/7993123 - email info.tributi@riscosrl.it - posta elettronica certificata risco@pec.riscosrl.it P.I. e C.F. 02174950697&lt;/span&gt;&lt;/div&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:16px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;INGIUNZIONE DI PAGAMENTO&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	ex art. 2 del R.D. 14 aprile 1910, n. 639&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:12px;"&gt;&lt;strong&gt;&lt;font face="arial, helvetica, sans-serif"&gt;&lt;i&gt;N. $nprat&lt;/i&gt;&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;prot. n.&amp;nbsp;&lt;strong&gt;$num__prot&lt;/strong&gt; del&amp;nbsp;&lt;strong&gt;$data_prot&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;CF:&amp;nbsp;$CF&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;Ente Creditore: &lt;strong&gt;Comune di Pineto&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;p class="destinatario"&gt;
+	&lt;strong&gt;$contribuente&lt;/strong&gt;&lt;b&gt;$associato&amp;nbsp;&lt;/b&gt;&lt;br /&gt;
+	$indirizzo&lt;br /&gt;
+	$cap $comune ($pr)&lt;/p&gt;
+&lt;br /&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;La Responsabile del Tributo, Dr.ssa Orietta Colleluori,&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;em&gt;PREMESSO:&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- che, a seguito degli atti riepilogati nel prospetto di cui sotto, emessi e notificati nei modi e nei termini di Legge senza che gli stessi siano stati impugnati nelle competenti sedi giurisdizionali, risultano non pagati gli importi cos&amp;igrave; come specificato nel prospetto stesso:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&lt;table border="1" cellpadding="1" cellspacing="1" row_datasource="@pratica_anag_id.@pratica_id.@pratica_riga" style="border-collapse:collapse;height:10px;width:100%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 9%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size: 10px;"&gt;Fase&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 6%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size: 10px;"&gt;Tributo&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 9%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;Anno&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 9%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;Data Not.&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 13%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;Dovuto&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 9%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;Versato&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 7%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;Sanzioni&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 7%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;Interessi&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 7%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;Speze Not.&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 5%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;arrot.&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 12%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;Debito Residuo&lt;/span&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td style="text-align: center; width: 9%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$r_fase&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; width: 6%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$r_trib&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; width: 9%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$r_anno&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; width: 9%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$r_datanot&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 9%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$r_dovuto&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 9%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$r_versato&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 9%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$r_sanzioni&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 9%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$r_int&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 7%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$r_spn&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 5%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$r_arr&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 12%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;strong&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$r_tot&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;table border="0" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td style="width: 87%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;TOTALE DEBITO RESIDUO&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 13%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;$debito_principale&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- che il credito &amp;egrave; divenuto certo, liquido ed esigibile ed &amp;egrave; definitivo ed incontestabile per cui occorre procedere al recupero coattivo del medesimo ai sensi dell&amp;#39;art. 2 del R.D.14.04.1910 n.639 e dell&amp;#39;art. 36, comma 2, legge n. 31 del 28.02.2008 e dell&amp;rsquo;art. 7 comma 2, lett.gg-quater della L.106/2011 come modificato dall&amp;rsquo;art. 14 bis della L.214/2011;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;VISTI:&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- il Regolamento TOSAP del Comune di Pineto, approvato con delibera di C.C. n. 79 del 13/05/1994 e successive modificazioni ed integrazioni;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- la Delibera di G.C. n&amp;deg;24 del 11/03/2008 che approvava le tariffe TOSAP e confermate per gli anni successivi (2015-2016-2017-2018), e successiva&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10px;"&gt;Delibera di G.C. n&amp;deg;26 del 07/03/2019&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10px;"&gt;- la Delibera di Consiglio Comunale n&amp;deg;39 del 26/03/1999 che approvava il Regolamento del Tributo;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- la Delibera di Consiglio Comunale n&amp;deg;xxx del xxxxxx con cui il Comune di Pineto ha disposto l&amp;rsquo;affidamento alla RISCO Srl dell&amp;rsquo;attivit&amp;agrave; di gestione, accertamento, e riscossione delle Entrate del Comune ed il relativo Contratto di Servizio sottoscritto in data xxxxxx tra il Comune di Pineto e la Societ&amp;agrave; RISCO Srl, con le successive modificazioni e integrazioni;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- la Delibera del Consiglio di Amministrazione della RISCO Srl del XXXXXXXX di nomina del Responsabile del Tributo.&lt;span style="text-align: center;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;INGIUNGE&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;a $contribuente,&amp;nbsp;$sede_dinamica $indirizzo -$cap&amp;nbsp;$comune($pr)&amp;nbsp;- C.F.:&amp;nbsp; $CF,&amp;nbsp;di pagare entro il termine di 30 (trenta) giorni a far data dalla notifica del presente atto e sotto pena degli atti esecutivi, la somma di &amp;euro; $debito_totale comprensiva di ulteriori interessi, spese e diritti di notifica,determinata secondo il seguente dettaglio:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;div&gt;
+		&lt;table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;"&gt;
+			&lt;tbody&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(255, 255, 255) rgb(0, 0, 0) rgb(0, 0, 0) rgb(255, 255, 255); height: 13px;"&gt;
+						&amp;nbsp;&lt;/th&gt;
+					&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 253.663px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Pagamento entro 60gg.&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+					&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 253.681px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Pagamento dopo 60gg.&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Debito Principale&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$debito_principale&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$debito_principale&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Ulteriori interessi al tasso legale maturati&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$interessi_ulteriori&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$interessi_ulteriori&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Oneri di riscossione per pagamento entro 60 gg.&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$oneri_riscossione&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$oneri_riscossione&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Ulteriori Oneri di riscossione per pagamento oltre 60 gg.&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						&amp;nbsp;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Spese di notifica&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$spese_notifica&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$spese_notifica&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: right; background-color: rgb(204, 204, 204); width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Importo Totale&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; background-color: rgb(204, 204, 204); width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$debito_totale&lt;/td&gt;
+					&lt;td style="text-align: right; background-color: rgb(204, 204, 204); width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$debito_totale&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/tbody&gt;
+		&lt;/table&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Il pagamento potr&amp;agrave; essere effettuato tramite canale PagoPa&lt;/span&gt;&lt;/div&gt;
+	&lt;div align="left"&gt;
+		&lt;strong&gt;&lt;span style="font-size:10px;"&gt;TITOLO ESECUTIVO&lt;/span&gt;: &lt;/strong&gt;&lt;span style="font-size:10px;"&gt;Il presente accertamento, decorsi i termini di legge per la presentazione del ricorso, senza che sia stato effettuato il versamento di quanto sopra richiesto (TOTALE AVVISO DI ACCERTAMENTO), &lt;u&gt;costituisce titolo esecutivo idoneo ad attivare le procedure esecutive e cautelari, &lt;/u&gt;senza la preventiva notifica dell&amp;rsquo;ingiunzione fiscale di cui al Regio decreto 14 aprile 1910 o cartella di pagamento.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Decorso il termine di 30 giorni dal termine ultimo per il pagamento, la riscossione delle somme richieste &amp;egrave; affidata all&amp;rsquo;Ufficiale di riscossione delle Entrate e Tributi Locali del Comune di Pineto che proceder&amp;agrave;, decorsi 60 giorni dal termine ultimo per il pagamento, alla riscossione delle somme richieste anche ai fini dell&amp;rsquo;esecuzione forzata. Il soggetto legittimato provveder&amp;agrave;, con raccomandata semplice o posta elettronica, ad informare il debitore di aver preso in carico le somme per la riscossione e proceder&amp;agrave; ad espropriazione forzata con i poteri, le facolt&amp;agrave; e le modalit&amp;agrave; previsti dalle disposizioni che disciplinano l&amp;rsquo;attivit&amp;agrave; di riscossione coattiva, addebitando, altres&amp;igrave;, le spese di notifica ed esecutive ai sensi della normativa vigente.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;nbsp;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;&lt;strong&gt;RICORSO&lt;/strong&gt;:&lt;/span&gt; &lt;span style="font-size:10px;"&gt;Avverso il presente atto &amp;egrave; ammesso ricorso, esclusivamente per vizi propri, &amp;nbsp;alla Commissione Tributaria Provinciale di TERAMO entro 60 giorni dalla sua notificazione (artt. 18 e 19 del D.lgs. 31 dicembre 1992, n. 546). Il ricorso &amp;egrave; proposto a mezzo PEC all&amp;rsquo;indirizzo &lt;u&gt;&lt;a href="mailto:protocollo@pec.comune.pineto.te.it"&gt;protocollo@pec.comune.pineto.te.it&lt;/a&gt;&lt;/u&gt; &amp;nbsp;o, in alternativa, qualora il contribuente stia in giudizio personalmente tramite notifica a quest&amp;rsquo;ufficio a norma degli artt. 137 e seguenti del C.P.C. oppure mediante consegna o spedizione a mezzo plico raccomandato senza busta con avviso di ricevimento (artt. 16, commi 2 e 3, e 20 del D.lgs. 31 dicembre 1992, n. 546). Entro 30 giorni dalla proposizione del ricorso, il ricorrente dovr&amp;agrave; costituirsi in giudizio mediante deposito del ricorso presso la segreteria della commissione tributaria adita secondo le modalit&amp;agrave; di cui all&amp;rsquo;art. 22, comma 1 del D.lgs. n. 546/1992. &amp;Egrave; ammesso anche il deposito a mezzo posta con plico raccomandato senza busta con avviso di ricevimento. Per controversie il cui valore sia superiore a &amp;euro; 3.000,00, a decorrere dal 1&amp;deg; gennaio 2016, &amp;egrave; necessaria l&amp;rsquo;assistenza tecnica di cui all&amp;rsquo;art. 12 del D.lgs. n. 546/1992. [Il ricorso contro l&amp;rsquo;atto di accertamento non sospende l&amp;rsquo;efficacia esecutiva dello stesso. In assenza del provvedimento di sospensione dell&amp;rsquo;atto &amp;egrave; comunque dovuto il pagamento del tributo e degli interessi. Per le sanzioni si applicano le disposizioni di cui all&amp;rsquo;art. 19 del D.lgs. n. 472/1997.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;nbsp;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;nbsp;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;nbsp;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Ai sensi del vigente art. 17-bis del D.lgs. n. 546/1992, come modificato dall&amp;rsquo;art. 10, comma 2, del Decreto Legge n. 50/2017, convertito con modificazioni dalla Legge 21 giugno 2017, n. 97, con riferimento agli atti, di importo fino a &amp;euro; 50.000,00, impugnabili notificati dal 1&amp;deg; gennaio 2018, il ricorso produce anche gli effetti di un reclamo e pu&amp;ograve; contenere una proposta di mediazione con rideterminazione dell&amp;#39;ammontare della pretesa. La procedura di reclamo-mediazione deve essere conclusa entro il termine di 90 giorni. Durante tale periodo il ricorso non &amp;egrave; procedibile e sono altres&amp;igrave; sospesi la riscossione ed il pagamento delle somme dovute.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;nbsp;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div&gt;
+			&lt;span style="font-size:10px;"&gt;&lt;strong&gt;AUTOTUTELA: &lt;/strong&gt;Qualora la S.V. fosse in possesso di documenti oggettivi che possano condurre ad una diversa quantificazione della tassa, &amp;egrave; possibile chiedere all&amp;rsquo;Ufficio Tributi la rettifica del presente atto, previa presentazione di relativa istanza e documentazione di riscontro, entro i termini per la proposizione del ricorso&lt;strong&gt;.&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;&lt;strong style="font-family: arial, helvetica, sans-serif; font-size: 11px;"&gt;INFORMAZIONI&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Eventuali chiarimenti riferiti alla situazione dei pagamenti e alla causale delle somme dovute possono essere richiesti agli uffici della RISCO S.r.l. con sede in Francavilla al Mare in via Spaccapietra n. 8-10 (Tel:085-815164; Fax:085/7993123; e-mail: info.tributi@riscosrl.it) dal luned&amp;igrave; al venerd&amp;igrave; dalle ore 11.00 alle ore 13.30 e nei giorni di marted&amp;igrave; e gioved&amp;igrave; anche dalle ore 15.30 alle ore 17.00.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;La Responsabile del Procedimento di formazione del presente atto &amp;egrave; la sottoscritta Responsabile del Tributo.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Il Responsabile del Procedimento di notificazione &amp;egrave; il sottoscritto Messo notificatore.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Ai sensi dell&amp;rsquo;art. 1, c. 87, della Legge 549/95, con Delibera di C.d.A. del 22/02/2013, la firma del soggetto responsabile &amp;egrave; sostituita dall&amp;rsquo;indicazione a stampa.&lt;/span&gt;&lt;/div&gt;
+	&lt;div style="text-align: right;"&gt;
+		&amp;nbsp;&lt;/div&gt;
+	&lt;div style="text-align: right;"&gt;
+		&lt;span style="font-size:10px;"&gt;&lt;strong&gt;La Responsabile del Tributo&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;div style="text-align: right;"&gt;
+		&lt;span style="font-size:10px;"&gt;&lt;strong&gt;( Dr.ssa Orietta Colleluori)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;nbsp;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;table border="2" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;"&gt;
+			&lt;tbody&gt;
+				&lt;tr&gt;
+					&lt;td&gt;
+						&lt;div style="text-align: center;"&gt;
+							&amp;nbsp;&lt;/div&gt;
+						&lt;div style="text-align: center;"&gt;
+							&lt;span style="font-size:10px;"&gt;&lt;strong&gt;RELATA DI NOTIFICA&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+						&lt;div&gt;
+							&lt;span style="font-size:10px;"&gt;N. Cronologico&amp;nbsp;&lt;b style="font-family: arial, helvetica, sans-serif; font-size: 11px; text-align: center;"&gt;$num_cron&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+						&lt;div&gt;
+							&lt;br /&gt;
+							&lt;span style="font-size:10px;"&gt;Io sottoscritto&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 10px;"&gt;$messo&amp;nbsp;Messo Notificatore della Societ&amp;agrave; RISCO srl, Direzione e Coordinamento&amp;nbsp;del Comune di Francavilla al Mare, HO NOTIFICATO il presente atto tramite il servizio postale come per legge a:&lt;/span&gt;&lt;/div&gt;
+						&lt;div&gt;
+							&lt;div&gt;
+								&amp;nbsp;&lt;/div&gt;
+							&lt;div&gt;
+								&lt;span style="font-size:10px;"&gt;$contribuente&lt;/span&gt;&lt;/div&gt;
+							&lt;div&gt;
+								&lt;span style="font-size:10px;"&gt;$sede_dinamica&amp;nbsp;$comune&amp;nbsp;($pr)&lt;/span&gt;&lt;/div&gt;
+							&lt;div&gt;
+								&lt;span style="font-size:10px;"&gt;$indirizzo&lt;/span&gt;&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div&gt;
+							&amp;nbsp;&lt;/div&gt;
+						&lt;div&gt;
+							&lt;span style="font-size:10px;"&gt;per il tramite dell&amp;rsquo;Ufficio Postale di&amp;nbsp;$ufficio_invio&amp;nbsp;con invio di Raccomandata R/R Atti Giudiziari n&amp;deg;&amp;nbsp;&lt;strong&gt;$num_racc&lt;/strong&gt;&amp;nbsp;in data&amp;nbsp;&lt;strong&gt;$data_invio&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+						&lt;div style="text-align: right;"&gt;
+							&lt;span style="font-size:10px;"&gt;Il Messo Notificatore&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+						&lt;div style="text-align: right;"&gt;
+							&lt;span style="font-size: 10px;"&gt;$messo&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+						&lt;div style="text-align: right;"&gt;
+							&lt;span style="font-size:10px;"&gt;.................................................................&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/tbody&gt;
+		&lt;/table&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;</content>
+<metadata><author>abarbone</author>
+<version _T="NN"></version>
+<date _T="NN"></date>
+<is_print _T="B" _valuelabel="">True</is_print>
+<is_mail _T="NN"></is_mail>
+<is_row _T="NN"></is_row>
+<row_height _T="NN"></row_height>
+<default_letterhead _T="NN"></default_letterhead>
+<summary _T="NN"></summary>
+<email><subject _T="NN"></subject>
+<to_address _T="NN"></to_address>
+<from_address _T="NN"></from_address>
+<cc_address _T="NN"></cc_address>
+<bcc_address _T="NN"></bcc_address>
+<attachments _T="NN"></attachments></email>
+<email_compiled _T="BAG"></email_compiled></metadata>
+<varsbag><fyov0npbjt _pkey="fyov0npbjt"><fieldpath>num_protocollo</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">Num. prot</fieldname>
+<varname dtype="::NN">num__prot</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyov0npbjt>
+<fyov0pd53l _pkey="fyov0pd53l"><fieldpath>data_protocollo</fieldpath>
+<dtype dtype="::NN">D</dtype>
+<fieldname dtype="::NN">Data prot</fieldname>
+<varname dtype="::NN">data_prot</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyov0pd53l>
+<fyov0zmbzt _pkey="fyov0zmbzt"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.anno</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/anno</fieldname>
+<varname dtype="::NN">r_anno</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyov0zmbzt>
+<fyov10vatl _pkey="fyov10vatl"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.data_notifica</fieldpath>
+<dtype dtype="::NN">D</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Data Not</fieldname>
+<varname dtype="::NN">r_datanot</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyov10vatl>
+<fyov149hqp _pkey="fyov149hqp"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.importo_dovuto</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Dovuto</fieldname>
+<varname dtype="::NN">r_dovuto</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyov149hqp>
+<fyov3gmdo9 _pkey="fyov3gmdo9"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.versato</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Versato</fieldname>
+<varname dtype="::NN">r_versato</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyov3gmdo9>
+<fyov5rernl _pkey="fyov5rernl"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.sanzioni</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Sanzioni</fieldname>
+<varname dtype="::NN">r_sanzioni</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyov5rernl>
+<fyzpklg5tl _pkey="fyzpklg5tl"><fieldpath>@pratica_anag_id.debitore_originario</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">id prat ana/debitore originario</fieldname>
+<varname dtype="::NN">debitore_originario</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzpklg5tl>
+<fyovfpzixl _pkey="fyovfpzixl"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.@fase_id.fase</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Fase/fase</fieldname>
+<varname dtype="::NN">r_fase</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyovfpzixl>
+<fyovfviiih _pkey="fyovfviiih"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.interessi</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Interessi</fieldname>
+<varname dtype="::NN">r_int</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyovfviiih>
+<fyovgv1as1 _pkey="fyovgv1as1"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.@tributo_id.tributo</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Tributo/Tributo</fieldname>
+<varname dtype="::NN">r_trib</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyovgv1as1>
+<fyovfw59yh _pkey="fyovfw59yh"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.spese_notifica</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/Sp.Not</fieldname>
+<varname dtype="::NN">r_spn</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyovfw59yh>
+<fyovfwwlr5 _pkey="fyovfwwlr5"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.arrotondamento</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/arrotondamento</fieldname>
+<varname dtype="::NN">r_arr</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyovfwwlr5>
+<fyovfy1v3d _pkey="fyovfy1v3d"><fieldpath>@pratica_anag_id.@pratica_id.@pratica_riga.debito_principale</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Pratica ID/Dettagli Pratica/debito_principale</fieldname>
+<varname dtype="::NN">r_tot</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyovfy1v3d>
+<fyp3t2h6g9 _pkey="fyp3t2h6g9"><fieldpath>@pratica_anag_id.debito_principale</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Debito Principale</fieldname>
+<varname dtype="::NN">debito_principale</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">â‚¬ #,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyp3t2h6g9>
+<fypr18jry1 _pkey="fypr18jry1"><fieldpath>pratica_num</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">N. Prat.</fieldname>
+<varname dtype="::NN">nprat</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fypr18jry1>
+<fyyr4ggym9 _pkey="fyyr4ggym9"><fieldpath>@pratica_anag_id.@anagrafica_id.codicefiscale</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/codicefiscale</fieldname>
+<varname dtype="::NN">CF</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr4ggym9>
+<fyyrj11vvd _pkey="fyyrj11vvd"><fieldpath>@pratica_anag_id.contribuente</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Contribuente</fieldname>
+<varname dtype="::NN">contribuente</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyrj11vvd>
+<fyyr8cb6vd _pkey="fyyr8cb6vd"><fieldpath>@pratica_anag_id.@anagrafica_id.indirizzo</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/indirizzo</fieldname>
+<varname dtype="::NN">indirizzo</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr8cb6vd>
+<fyyr8f3zq9 _pkey="fyyr8f3zq9"><fieldpath>@pratica_anag_id.@anagrafica_id.cap</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/cap</fieldname>
+<varname dtype="::NN">cap</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr8f3zq9>
+<fyyr8hl429 _pkey="fyyr8hl429"><fieldpath>@pratica_anag_id.@anagrafica_id.comune</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/comune</fieldname>
+<varname dtype="::NN">comune</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr8hl429>
+<fyyrqfpf7d _pkey="fyyrqfpf7d"><fieldpath>@pratica_anag_id.@invio.num_raccomandata</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">id prat ana/Invii/Num. racc</fieldname>
+<varname dtype="::NN">num</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyrqfpf7d>
+<fyyr8nrcu1 _pkey="fyyr8nrcu1"><fieldpath>@pratica_anag_id.@anagrafica_id.pr</fieldpath>
+<dtype dtype="::NN">T</dtype>
+<fieldname dtype="::NN">id prat ana/Ctrb ID/pr</fieldname>
+<varname dtype="::NN">pr</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyr8nrcu1>
+<fyyruid5f5 _pkey="fyyruid5f5"><fieldpath>@pratica_anag_id.@invio.ufficio_invio</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">id prat ana/Invii/Ufficio invio</fieldname>
+<varname dtype="::NN">ufficio_invio</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyruid5f5>
+<fyyrrmhfsh _pkey="fyyrrmhfsh"><fieldpath>@pratica_anag_id.@invio.@messo_id.nome</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">id prat ana/Invii/Messo notificatore/Messo Notificatore</fieldname>
+<varname dtype="::NN">messo</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyyrrmhfsh>
+<fyzozmr6hl _pkey="fyzozmr6hl"><fieldpath>@pratica_anag_id.debito_totale</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">id prat ana/Debito Totale</fieldname>
+<varname dtype="::NN">debito_totale</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzozmr6hl>
+<fyzw09dslt _pkey="fyzw09dslt"><fieldpath>num_raccomandata</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">Num. racc</fieldname>
+<varname dtype="::NN">num_racc</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzw09dslt>
+<fyzw07dtk1 _pkey="fyzw07dtk1"><fieldpath>num_cronologico</fieldpath>
+<dtype dtype="::NN">I</dtype>
+<fieldname dtype="::NN">Num. cron</fieldname>
+<varname dtype="::NN">num_cron</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">#</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzw07dtk1>
+<fyzw1gcqf5 _pkey="fyzw1gcqf5"><fieldpath>data_invio</fieldpath>
+<dtype dtype="::NN">D</dtype>
+<fieldname dtype="::NN">Data invio</fieldname>
+<varname dtype="::NN">data_invio</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzw1gcqf5>
+<fyzwn8lng9 _pkey="fyzwn8lng9"><fieldpath>interessi_ulteriori</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">Interessi Ulteriori</fieldname>
+<varname dtype="::NN">interessi_ulteriori</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">â‚¬ #,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzwn8lng9>
+<fyzwn77jft _pkey="fyzwn77jft"><fieldpath>oneri_riscossione</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">Oneri Riscossione</fieldname>
+<varname dtype="::NN">oneri_riscossione</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">â‚¬ #,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzwn77jft>
+<fyzwoiiyqp _pkey="fyzwoiiyqp"><fieldpath>spese_notifica</fieldpath>
+<dtype dtype="::NN">R</dtype>
+<fieldname dtype="::NN">Spese di Notifica</fieldname>
+<varname dtype="::NN">spese_di_notifica</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format dtype="::NN">â‚¬ #,##0.00</format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzwoiiyqp>
+<fyzxlm3f49 _pkey="fyzxlm3f49"><fieldpath>sede_dinamica</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">sede_dinamica</fieldname>
+<varname dtype="::NN">sede_dinamica</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></fyzxlm3f49>
+<g06vqhn40x _pkey="g06vqhn40x"><fieldpath>associato</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">associato</fieldname>
+<varname dtype="::NN">associato</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g06vqhn40x>
+<g06vtsb7jt _pkey="g06vtsb7jt"><fieldpath>attributo</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">attributo</fieldname>
+<varname dtype="::NN">attributo</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g06vtsb7jt>
+<g06vtuik15 _pkey="g06vtuik15"><fieldpath>deb_orig</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">debitore originario</fieldname>
+<varname dtype="::NN">debitore_originario</varname>
+<virtual_column _T="B">True</virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g06vtuik15>
+<g4ctxmtqf5 _pkey="g4ctxmtqf5"><fieldpath>@messo_id.nome</fieldpath>
+<dtype dtype="::NN">A</dtype>
+<fieldname dtype="::NN">Messo notificatore/Messo Notificatore</fieldname>
+<varname dtype="::NN" _loadedValue="messo_notificatore_messo_notificatore">messo</varname>
+<virtual_column _T="NN"></virtual_column>
+<required_columns _T="NN"></required_columns>
+<df_template _T="NN"></df_template>
+<format _T="NN" dtype="::NN"></format>
+<mask _T="NN" dtype="::NN"></mask>
+<editable _T="NN" dtype="::NN"></editable></g4ctxmtqf5></varsbag>
+<parameters _T="BAG"></parameters>
+<email><attached_reports _T="BAG"></attached_reports></email>
+<compiled><_pratica_anag_id_pratica_id_pratica_riga _tag="@pratica_anag_id_@pratica_id_@pratica_riga">&lt;tr&gt;
+				&lt;td style="text-align: center; width: 9%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$@fase_id.fase&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; width: 6%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$@tributo_id.tributo^r_trib&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; width: 9%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$anno^r_anno&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; width: 9%; padding: 3px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$data_notifica&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 9%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$importo_dovuto^r_dovuto&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 9%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$versato^r_versato&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 9%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$sanzioni^r_sanzioni&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 9%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$interessi^r_int&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 7%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$spese_notifica^r_spn&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 5%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;$arrotondamento^r_arr&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 12%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right; height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;strong&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;$debito_principale^r_tot&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		</_pratica_anag_id_pratica_id_pratica_riga>
+<main maintable="rcweb.invio" locale="it-IT" virtual_columns="@pratica_anag_id.debitore_originario,@pratica_anag_id.@pratica_id.@pratica_riga.debito_principale,@pratica_anag_id.debito_principale,pratica_num,@pratica_anag_id.contribuente,@pratica_anag_id.debito_totale,interessi_ulteriori,oneri_riscossione,spese_notifica,sede_dinamica,associato,attributo,deb_orig" columns="$num_protocollo,$data_protocollo,@pratica_anag_id.@pratica_id.@pratica_riga.anno^r_anno,@pratica_anag_id.@pratica_id.@pratica_riga.data_notifica,@pratica_anag_id.@pratica_id.@pratica_riga.importo_dovuto^r_dovuto,@pratica_anag_id.@pratica_id.@pratica_riga.versato^r_versato,@pratica_anag_id.@pratica_id.@pratica_riga.sanzioni^r_sanzioni,@pratica_anag_id.debitore_originario,@pratica_anag_id.@pratica_id.@pratica_riga.@fase_id.fase,@pratica_anag_id.@pratica_id.@pratica_riga.interessi^r_int,@pratica_anag_id.@pratica_id.@pratica_riga.@tributo_id.tributo^r_trib,@pratica_anag_id.@pratica_id.@pratica_riga.spese_notifica^r_spn,@pratica_anag_id.@pratica_id.@pratica_riga.arrotondamento^r_arr,@pratica_anag_id.@pratica_id.@pratica_riga.debito_principale^r_tot,@pratica_anag_id.debito_principale^debito_principale,$pratica_num,@pratica_anag_id.@anagrafica_id.codicefiscale,@pratica_anag_id.contribuente,@pratica_anag_id.@anagrafica_id.indirizzo,@pratica_anag_id.@anagrafica_id.cap^cap,@pratica_anag_id.@anagrafica_id.comune,@pratica_anag_id.@invio.num_raccomandata,@pratica_anag_id.@anagrafica_id.pr,@pratica_anag_id.@invio.ufficio_invio,@pratica_anag_id.@invio.@messo_id.nome,@pratica_anag_id.debito_totale^debito_totale,$num_raccomandata,$num_cronologico^num_cron,$data_invio,$interessi_ulteriori^interessi_ulteriori,$oneri_riscossione^oneri_riscossione,$spese_notifica^spese_di_notifica,$sede_dinamica,$associato,$attributo,$deb_orig,@messo_id.nome" formats='{"r_anno": "#", "r_dovuto": "#,##0.00", "r_versato": "#,##0.00", "r_sanzioni": "#,##0.00", "r_int": "#,##0.00", "r_trib": "#,##0.00", "r_spn": "#,##0.00", "r_arr": "#,##0.00", "r_tot": "#,##0.00", "debito_principale": "\u00e2\u201a\u00ac #,##0.00", "cap": "#", "debito_totale": "#,##0.00", "num_cron": "#", "interessi_ulteriori": "\u00e2\u201a\u00ac #,##0.00", "oneri_riscossione": "\u00e2\u201a\u00ac #,##0.00", "spese_di_notifica": "\u00e2\u201a\u00ac #,##0.00"}::JS' masks="{}::JS" editcols="{}::JS" df_templates="{}::JS" dtypes='{"num__prot": "A", "data_prot": "D", "r_anno": "I", "r_datanot": "D", "r_dovuto": "R", "r_versato": "R", "r_sanzioni": "R", "debitore_originario": "A", "r_fase": "T", "r_int": "R", "r_trib": "T", "r_spn": "R", "r_arr": "R", "r_tot": "R", "debito_principale": "R", "nprat": "I", "CF": "T", "contribuente": "T", "indirizzo": "T", "cap": "I", "comune": "T", "num": "A", "pr": "T", "ufficio_invio": "A", "messo": "A", "debito_totale": "R", "num_racc": "A", "num_cron": "I", "data_invio": "D", "interessi_ulteriori": "R", "oneri_riscossione": "R", "spese_di_notifica": "R", "sede_dinamica": "A", "associato": "A", "attributo": "A"}::JS'>&lt;html&gt;&lt;body&gt;&lt;div&gt;
+	&lt;style type="text/css"&gt;
+p.destinatario {
+  margin-left: 60%; font face="arial, helvetica, sans-serif"; font-size: 11px;
+}	&lt;/style&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;table border="1" cellpadding="1" cellspacing="1" style="font-size: 12px; border-collapse: collapse; width: 100%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td&gt;
+					&lt;div&gt;
+						&lt;img alt="" src="http://localhost:8080/site:loghi/risco.png" style="width: 200px; height: 48px;"&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Societ&amp;#224; Unipersonale del Comune di Francavilla al Mare &amp;#8211; Gestione e Riscossione Tributi&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;Direzione e Coordinamento Comune di Francavilla al Mare&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+					&lt;div&gt;
+						&lt;span style="font-size:8px;"&gt;Via Spaccapietra n. 8-10 - 66023 - Francavilla al Mare (Ch) - 085/815164 fax 085/7993123 - email info.tributi@riscosrl.it - posta elettronica certificata risco@pec.riscosrl.it P.I. e C.F. 02174950697&lt;/span&gt;&lt;/div&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:16px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;INGIUNZIONE DI PAGAMENTO&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	ex art. 2 del R.D. 14 aprile 1910, n. 639&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:12px;"&gt;&lt;strong&gt;&lt;font face="arial, helvetica, sans-serif"&gt;&lt;i&gt;N. $pratica_num&lt;/i&gt;&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;prot. n.&amp;#160;&lt;strong&gt;$num_protocollo&lt;/strong&gt; del&amp;#160;&lt;strong&gt;$data_protocollo&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;CF:&amp;#160;$@pratica_anag_id.@anagrafica_id.codicefiscale&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;font face="arial, helvetica, sans-serif"&gt;&lt;span style="font-size: 11px;"&gt;&lt;i&gt;Ente Creditore: &lt;strong&gt;Comune di Pineto&lt;/strong&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;p class="destinatario"&gt;
+	&lt;strong&gt;$@pratica_anag_id.contribuente&lt;/strong&gt;&lt;b&gt;$associato&amp;#160;&lt;/b&gt;&lt;br&gt;
+	$@pratica_anag_id.@anagrafica_id.indirizzo&lt;br&gt;
+	$@pratica_anag_id.@anagrafica_id.cap^cap $@pratica_anag_id.@anagrafica_id.comune ($@pratica_anag_id.@anagrafica_id.pr)&lt;/p&gt;
+&lt;br&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;La Responsabile del Tributo, Dr.ssa Orietta Colleluori,&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;em&gt;PREMESSO:&lt;/em&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- che, a seguito degli atti riepilogati nel prospetto di cui sotto, emessi e notificati nei modi e nei termini di Legge senza che gli stessi siano stati impugnati nelle competenti sedi giurisdizionali, risultano non pagati gli importi cos&amp;#236; come specificato nel prospetto stesso:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;div&gt;
+	&lt;table border="1" cellpadding="1" cellspacing="1" row_datasource="@pratica_anag_id.@pratica_id.@pratica_riga" style="border-collapse:collapse;height:10px;width:100%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 9%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size: 10px;"&gt;Fase&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 6%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size: 10px;"&gt;Tributo&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 9%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;Anno&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 9%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;Data Not.&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 13%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;Dovuto&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 9%; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+					&lt;span style="font-size:10px;"&gt;Versato&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 7%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;Sanzioni&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 7%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;Interessi&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 7%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;Speze Not.&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 5%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;arrot.&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 12%; border-color: rgb(0, 0, 0);"&gt;
+					&lt;span style="font-size:10px;"&gt;Debito Residuo&lt;/span&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			
+$@pratica_anag_id.@pratica_id.@pratica_riga
+&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;table border="0" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;"&gt;
+		&lt;tbody&gt;
+			&lt;tr&gt;
+				&lt;td style="width: 87%; padding: 3px; border-color: rgb(0, 0, 0); text-align: right;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;TOTALE DEBITO RESIDUO&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;td style="width: 13%; padding: 5px; border-color: rgb(0, 0, 0); text-align: right;"&gt;
+					&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;$@pratica_anag_id.debito_principale^debito_principale&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- che il credito &amp;#232; divenuto certo, liquido ed esigibile ed &amp;#232; definitivo ed incontestabile per cui occorre procedere al recupero coattivo del medesimo ai sensi dell'art. 2 del R.D.14.04.1910 n.639 e dell'art. 36, comma 2, legge n. 31 del 28.02.2008 e dell&amp;#8217;art. 7 comma 2, lett.gg-quater della L.106/2011 come modificato dall&amp;#8217;art. 14 bis della L.214/2011;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;VISTI:&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- il Regolamento TOSAP del Comune di Pineto, approvato con delibera di C.C. n. 79 del 13/05/1994 e successive modificazioni ed integrazioni;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- la Delibera di G.C. n&amp;#176;24 del 11/03/2008 che approvava le tariffe TOSAP e confermate per gli anni successivi (2015-2016-2017-2018), e successiva&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10px;"&gt;Delibera di G.C. n&amp;#176;26 del 07/03/2019&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10px;"&gt;- la Delibera di Consiglio Comunale n&amp;#176;39 del 26/03/1999 che approvava il Regolamento del Tributo;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- la Delibera di Consiglio Comunale n&amp;#176;xxx del xxxxxx con cui il Comune di Pineto ha disposto l&amp;#8217;affidamento alla RISCO Srl dell&amp;#8217;attivit&amp;#224; di gestione, accertamento, e riscossione delle Entrate del Comune ed il relativo Contratto di Servizio sottoscritto in data xxxxxx tra il Comune di Pineto e la Societ&amp;#224; RISCO Srl, con le successive modificazioni e integrazioni;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;- la Delibera del Consiglio di Amministrazione della RISCO Srl del XXXXXXXX di nomina del Responsabile del Tributo.&lt;span style="text-align: center;"&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;&lt;strong&gt;INGIUNGE&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;span style="font-size:10px;"&gt;&lt;span style="font-family:arial,helvetica,sans-serif;"&gt;a $@pratica_anag_id.contribuente,&amp;#160;$sede_dinamica $@pratica_anag_id.@anagrafica_id.indirizzo -$@pratica_anag_id.@anagrafica_id.cap^cap&amp;#160;$@pratica_anag_id.@anagrafica_id.comune($@pratica_anag_id.@anagrafica_id.pr)&amp;#160;- C.F.:&amp;#160; $@pratica_anag_id.@anagrafica_id.codicefiscale,&amp;#160;di pagare entro il termine di 30 (trenta) giorni a far data dalla notifica del presente atto e sotto pena degli atti esecutivi, la somma di &amp;#8364; $@pratica_anag_id.debito_totale^debito_totale comprensiva di ulteriori interessi, spese e diritti di notifica,determinata secondo il seguente dettaglio:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+	&lt;div&gt;
+		&lt;table border="1" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;"&gt;
+			&lt;tbody&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(255, 255, 255) rgb(0, 0, 0) rgb(0, 0, 0) rgb(255, 255, 255); height: 13px;"&gt;
+						&amp;#160;&lt;/th&gt;
+					&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 253.663px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Pagamento entro 60gg.&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+					&lt;td style="text-align: center; background-color: rgb(204, 204, 204); width: 253.681px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Pagamento dopo 60gg.&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Debito Principale&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$@pratica_anag_id.debito_principale^debito_principale&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$@pratica_anag_id.debito_principale^debito_principale&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Ulteriori interessi al tasso legale maturati&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$interessi_ulteriori^interessi_ulteriori&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$interessi_ulteriori^interessi_ulteriori&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Oneri di riscossione per pagamento entro 60 gg.&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$oneri_riscossione^oneri_riscossione&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$oneri_riscossione^oneri_riscossione&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Ulteriori Oneri di riscossione per pagamento oltre 60 gg.&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						&amp;#160;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: left; width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Spese di notifica&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$spese_notifica&lt;/td&gt;
+					&lt;td style="text-align: right; width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$spese_notifica&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;th style="text-align: right; background-color: rgb(204, 204, 204); width: 767.17px; border-color: rgb(0, 0, 0); height: 13px;"&gt;
+						&lt;span style="font-size: 10px;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif;"&gt;Importo Totale&lt;/span&gt;&lt;/span&gt;&lt;/th&gt;
+					&lt;td style="text-align: right; background-color: rgb(204, 204, 204); width: 249.653px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$@pratica_anag_id.debito_totale^debito_totale&lt;/td&gt;
+					&lt;td style="text-align: right; background-color: rgb(204, 204, 204); width: 249.67px; border-color: rgb(0, 0, 0); height: 13px; padding-right: 5px;"&gt;
+						$@pratica_anag_id.debito_totale^debito_totale&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/tbody&gt;
+		&lt;/table&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Il pagamento potr&amp;#224; essere effettuato tramite canale PagoPa&lt;/span&gt;&lt;/div&gt;
+	&lt;div align="left"&gt;
+		&lt;strong&gt;&lt;span style="font-size:10px;"&gt;TITOLO ESECUTIVO&lt;/span&gt;: &lt;/strong&gt;&lt;span style="font-size:10px;"&gt;Il presente accertamento, decorsi i termini di legge per la presentazione del ricorso, senza che sia stato effettuato il versamento di quanto sopra richiesto (TOTALE AVVISO DI ACCERTAMENTO), &lt;u&gt;costituisce titolo esecutivo idoneo ad attivare le procedure esecutive e cautelari, &lt;/u&gt;senza la preventiva notifica dell&amp;#8217;ingiunzione fiscale di cui al Regio decreto 14 aprile 1910 o cartella di pagamento.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Decorso il termine di 30 giorni dal termine ultimo per il pagamento, la riscossione delle somme richieste &amp;#232; affidata all&amp;#8217;Ufficiale di riscossione delle Entrate e Tributi Locali del Comune di Pineto che proceder&amp;#224;, decorsi 60 giorni dal termine ultimo per il pagamento, alla riscossione delle somme richieste anche ai fini dell&amp;#8217;esecuzione forzata. Il soggetto legittimato provveder&amp;#224;, con raccomandata semplice o posta elettronica, ad informare il debitore di aver preso in carico le somme per la riscossione e proceder&amp;#224; ad espropriazione forzata con i poteri, le facolt&amp;#224; e le modalit&amp;#224; previsti dalle disposizioni che disciplinano l&amp;#8217;attivit&amp;#224; di riscossione coattiva, addebitando, altres&amp;#236;, le spese di notifica ed esecutive ai sensi della normativa vigente.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;#160;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;&lt;strong&gt;RICORSO&lt;/strong&gt;:&lt;/span&gt; &lt;span style="font-size:10px;"&gt;Avverso il presente atto &amp;#232; ammesso ricorso, esclusivamente per vizi propri, &amp;#160;alla Commissione Tributaria Provinciale di TERAMO entro 60 giorni dalla sua notificazione (artt. 18 e 19 del D.lgs. 31 dicembre 1992, n. 546). Il ricorso &amp;#232; proposto a mezzo PEC all&amp;#8217;indirizzo &lt;u&gt;&lt;a href="mailto:protocollo@pec.comune.pineto.te.it"&gt;protocollo@pec.comune.pineto.te.it&lt;/a&gt;&lt;/u&gt; &amp;#160;o, in alternativa, qualora il contribuente stia in giudizio personalmente tramite notifica a quest&amp;#8217;ufficio a norma degli artt. 137 e seguenti del C.P.C. oppure mediante consegna o spedizione a mezzo plico raccomandato senza busta con avviso di ricevimento (artt. 16, commi 2 e 3, e 20 del D.lgs. 31 dicembre 1992, n. 546). Entro 30 giorni dalla proposizione del ricorso, il ricorrente dovr&amp;#224; costituirsi in giudizio mediante deposito del ricorso presso la segreteria della commissione tributaria adita secondo le modalit&amp;#224; di cui all&amp;#8217;art. 22, comma 1 del D.lgs. n. 546/1992. &amp;#200; ammesso anche il deposito a mezzo posta con plico raccomandato senza busta con avviso di ricevimento. Per controversie il cui valore sia superiore a &amp;#8364; 3.000,00, a decorrere dal 1&amp;#176; gennaio 2016, &amp;#232; necessaria l&amp;#8217;assistenza tecnica di cui all&amp;#8217;art. 12 del D.lgs. n. 546/1992. [Il ricorso contro l&amp;#8217;atto di accertamento non sospende l&amp;#8217;efficacia esecutiva dello stesso. In assenza del provvedimento di sospensione dell&amp;#8217;atto &amp;#232; comunque dovuto il pagamento del tributo e degli interessi. Per le sanzioni si applicano le disposizioni di cui all&amp;#8217;art. 19 del D.lgs. n. 472/1997.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;#160;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;#160;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;#160;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Ai sensi del vigente art. 17-bis del D.lgs. n. 546/1992, come modificato dall&amp;#8217;art. 10, comma 2, del Decreto Legge n. 50/2017, convertito con modificazioni dalla Legge 21 giugno 2017, n. 97, con riferimento agli atti, di importo fino a &amp;#8364; 50.000,00, impugnabili notificati dal 1&amp;#176; gennaio 2018, il ricorso produce anche gli effetti di un reclamo e pu&amp;#242; contenere una proposta di mediazione con rideterminazione dell'ammontare della pretesa. La procedura di reclamo-mediazione deve essere conclusa entro il termine di 90 giorni. Durante tale periodo il ricorso non &amp;#232; procedibile e sono altres&amp;#236; sospesi la riscossione ed il pagamento delle somme dovute.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;#160;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div&gt;
+			&lt;span style="font-size:10px;"&gt;&lt;strong&gt;AUTOTUTELA: &lt;/strong&gt;Qualora la S.V. fosse in possesso di documenti oggettivi che possano condurre ad una diversa quantificazione della tassa, &amp;#232; possibile chiedere all&amp;#8217;Ufficio Tributi la rettifica del presente atto, previa presentazione di relativa istanza e documentazione di riscontro, entro i termini per la proposizione del ricorso&lt;strong&gt;.&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;&lt;strong style="font-family: arial, helvetica, sans-serif; font-size: 11px;"&gt;INFORMAZIONI&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Eventuali chiarimenti riferiti alla situazione dei pagamenti e alla causale delle somme dovute possono essere richiesti agli uffici della RISCO S.r.l. con sede in Francavilla al Mare in via Spaccapietra n. 8-10 (Tel:085-815164; Fax:085/7993123; e-mail: info.tributi@riscosrl.it) dal luned&amp;#236; al venerd&amp;#236; dalle ore 11.00 alle ore 13.30 e nei giorni di marted&amp;#236; e gioved&amp;#236; anche dalle ore 15.30 alle ore 17.00.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;La Responsabile del Procedimento di formazione del presente atto &amp;#232; la sottoscritta Responsabile del Tributo.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Il Responsabile del Procedimento di notificazione &amp;#232; il sottoscritto Messo notificatore.&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;span style="font-size:10px;"&gt;Ai sensi dell&amp;#8217;art. 1, c. 87, della Legge 549/95, con Delibera di C.d.A. del 22/02/2013, la firma del soggetto responsabile &amp;#232; sostituita dall&amp;#8217;indicazione a stampa.&lt;/span&gt;&lt;/div&gt;
+	&lt;div style="text-align: right;"&gt;
+		&amp;#160;&lt;/div&gt;
+	&lt;div style="text-align: right;"&gt;
+		&lt;span style="font-size:10px;"&gt;&lt;strong&gt;La Responsabile del Tributo&amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160;&amp;#160;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;div style="text-align: right;"&gt;
+		&lt;span style="font-size:10px;"&gt;&lt;strong&gt;( Dr.ssa Orietta Colleluori)&amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160;&amp;#160;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+	&lt;div&gt;
+		&amp;#160;&lt;/div&gt;
+	&lt;div&gt;
+		&lt;table border="2" cellpadding="1" cellspacing="1" style="border-collapse:collapse;width:100%;"&gt;
+			&lt;tbody&gt;
+				&lt;tr&gt;
+					&lt;td&gt;
+						&lt;div style="text-align: center;"&gt;
+							&amp;#160;&lt;/div&gt;
+						&lt;div style="text-align: center;"&gt;
+							&lt;span style="font-size:10px;"&gt;&lt;strong&gt;RELATA DI NOTIFICA&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+						&lt;div&gt;
+							&lt;span style="font-size:10px;"&gt;N. Cronologico&amp;#160;&lt;b style="font-family: arial, helvetica, sans-serif; font-size: 11px; text-align: center;"&gt;$num_cronologico^num_cron&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+						&lt;div&gt;
+							&lt;br&gt;
+							&lt;span style="font-size:10px;"&gt;Io sottoscritto&amp;#160;&lt;/span&gt;&lt;span style="font-size: 10px;"&gt;$@messo_id.nome&amp;#160;Messo Notificatore della Societ&amp;#224; RISCO srl, Direzione e Coordinamento&amp;#160;del Comune di Francavilla al Mare, HO NOTIFICATO il presente atto tramite il servizio postale come per legge a:&lt;/span&gt;&lt;/div&gt;
+						&lt;div&gt;
+							&lt;div&gt;
+								&amp;#160;&lt;/div&gt;
+							&lt;div&gt;
+								&lt;span style="font-size:10px;"&gt;$@pratica_anag_id.contribuente&lt;/span&gt;&lt;/div&gt;
+							&lt;div&gt;
+								&lt;span style="font-size:10px;"&gt;$sede_dinamica&amp;#160;$@pratica_anag_id.@anagrafica_id.comune&amp;#160;($@pratica_anag_id.@anagrafica_id.pr)&lt;/span&gt;&lt;/div&gt;
+							&lt;div&gt;
+								&lt;span style="font-size:10px;"&gt;$@pratica_anag_id.@anagrafica_id.indirizzo&lt;/span&gt;&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div&gt;
+							&amp;#160;&lt;/div&gt;
+						&lt;div&gt;
+							&lt;span style="font-size:10px;"&gt;per il tramite dell&amp;#8217;Ufficio Postale di&amp;#160;$@pratica_anag_id.@invio.ufficio_invio&amp;#160;con invio di Raccomandata R/R Atti Giudiziari n&amp;#176;&amp;#160;&lt;strong&gt;$num_raccomandata&lt;/strong&gt;&amp;#160;in data&amp;#160;&lt;strong&gt;$data_invio&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+						&lt;div style="text-align: right;"&gt;
+							&lt;span style="font-size:10px;"&gt;Il Messo Notificatore&amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160;&amp;#160;&lt;/span&gt;&lt;/div&gt;
+						&lt;div style="text-align: right;"&gt;
+							&lt;span style="font-size: 10px;"&gt;$@messo_id.nome&amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160; &amp;#160;&lt;/span&gt;&lt;/div&gt;
+						&lt;div style="text-align: right;"&gt;
+							&lt;span style="font-size:10px;"&gt;.................................................................&amp;#160; &amp;#160;&amp;#160;&lt;/span&gt;&lt;/div&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/tbody&gt;
+		&lt;/table&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+	&amp;#160;&lt;/div&gt;
+&lt;/body&gt;&lt;/html&gt;</main></compiled></data>
+<authtags _T="NN" dtype="T" name_long="!![en]Auth tags" _owner_package="rcweb" print_width="20::L" as="t0_authtags"></authtags>
+<private _T="B" dtype="B" name_long="!![en]Private" _owner_package="rcweb" print_width="11::L" as="t0_private">False</private>
+<quicklist _T="NN" dtype="B" name_long="!![en]Quicklist" _owner_package="rcweb" print_width="13::L" as="t0_quicklist"></quicklist>
+<flags dtype="T" name_long="!![en]Flags" _owner_package="rcweb" print_width="20::L" as="t0_flags">is_print</flags>
+<required_pkg _T="NN" name_long="!![en]Required pkg" _owner_package="rcweb" dtype="T" print_width="20::L" as="t0_required_pkg"></required_pkg>
+<preview _T="NN" name_long="!![en][it]Preview" _owner_package="rcweb" dtype="T" as="t0_preview"></preview></GenRoBag>
